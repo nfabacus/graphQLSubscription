@@ -1,4 +1,4 @@
-# POC graphQL server - listing to Call from Server.
+# POC graphQL server - listening to Call from Server.
 This is a spike to test an idea below:
 1. Some server call a graphQL server to notify an event via a simple rest POST call.
 2. When the graphQL server detects (receives a POST call), it publishes an event via websocket.
